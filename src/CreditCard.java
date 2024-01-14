@@ -41,7 +41,7 @@ public class CreditCard {
     // Пример использования класса
     public static void main(String[] args) {
         // Создаем три объекта класса CreditCard
-        CreditCard card1 = new CreditCard("1234-5678-2149-3472", 10000);
+        CreditCard card1 = new CreditCard("1234-5678-2149-3472", 20000);
         CreditCard card2 = new CreditCard("9876-3456-1234-4321", 500000);
         CreditCard card3 = new CreditCard("5453-9685-2355-8755", 700500);
 
@@ -49,7 +49,6 @@ public class CreditCard {
         card1.withdraw(300);
         card2.withdraw(100);
         card3.deposit(400);
-
 
 
         // Выводим текущую информацию о карточках
