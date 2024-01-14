@@ -50,6 +50,8 @@ public class CreditCard {
         card2.withdraw(100);
         card3.deposit(400);
 
+
+
         // Выводим текущую информацию о карточках
         card1.displayInfo();
         card2.displayInfo();
