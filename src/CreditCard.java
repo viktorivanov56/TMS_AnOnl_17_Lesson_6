@@ -31,13 +31,11 @@ public class CreditCard {
             System.out.println("Недостаточно средств на карточке.");
         }
     }
-
     // Метод для вывода текущей информации о карточке
     public void displayInfo() {
         System.out.println("Номер карты: " + accountNumber);
         System.out.println("Текущая сумма на карте: " + balance);
     }
-
     // Пример использования класса
     public static void main(String[] args) {
         // Создаем три объекта класса CreditCard
@@ -49,8 +47,6 @@ public class CreditCard {
         card1.withdraw(300);
         card2.withdraw(100);
         card3.deposit(400);
-
-
         // Выводим текущую информацию о карточках
         card1.displayInfo();
         card2.displayInfo();
